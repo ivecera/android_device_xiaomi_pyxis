@@ -631,6 +631,10 @@
         <path name="deep-buffer-playback" />
     </path>
 
+    <path name="deep-buffer-playback hdmi">
+        <ctl name="HDMI Mixer MultiMedia1" value="1" />
+    </path>
+
     <path name="deep-buffer-playback display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia1" value="1" />
     </path>
@@ -734,6 +738,10 @@
 
     <path name="low-latency-playback speaker-safe">
         <path name="low-latency-playback" />
+    </path>
+
+    <path name="low-latency-playback hdmi">
+        <ctl name="HDMI Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback display-port">
@@ -859,6 +867,10 @@
         <path name="audio-ull-playback headphones" />
     </path>
 
+    <path name="audio-ull-playback hdmi">
+        <ctl name="HDMI Mixer MultiMedia8" value="1" />
+    </path>
+
     <path name="audio-ull-playback display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia8" value="1" />
     </path>
@@ -946,6 +958,10 @@
 
     <path name="compress-offload-playback speaker-safe">
         <path name="compress-offload-playback" />
+    </path>
+
+    <path name="compress-offload-playback hdmi">
+        <ctl name="HDMI Mixer MultiMedia4" value="1" />
     </path>
 
     <path name="compress-offload-playback display-port">
@@ -1060,6 +1076,10 @@
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia7" value="1" />
     </path>
 
+    <path name="compress-offload-playback2 hdmi">
+        <ctl name="HDMI Mixer MultiMedia7" value="1" />
+    </path>
+
     <path name="compress-offload-playback2 display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia7" value="1" />
     </path>
@@ -1168,6 +1188,10 @@
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
+    <path name="compress-offload-playback3 hdmi">
+        <ctl name="HDMI Mixer MultiMedia10" value="1" />
+    </path>
+
     <path name="compress-offload-playback3 display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia10" value="1" />
     </path>
@@ -1274,6 +1298,10 @@
 
     <path name="compress-offload-playback4 speaker-safe">
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia11" value="1" />
+    </path>
+
+    <path name="compress-offload-playback4 hdmi">
+        <ctl name="HDMI Mixer MultiMedia11" value="1" />
     </path>
 
     <path name="compress-offload-playback4 display-port">
@@ -1385,6 +1413,10 @@
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia12" value="1" />
     </path>
 
+    <path name="compress-offload-playback5 hdmi">
+        <ctl name="HDMI Mixer MultiMedia12" value="1" />
+    </path>
+
     <path name="compress-offload-playback5 display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia12" value="1" />
     </path>
@@ -1491,6 +1523,10 @@
 
     <path name="compress-offload-playback6 speaker-safe">
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia13" value="1" />
+    </path>
+
+    <path name="compress-offload-playback6 hdmi">
+        <ctl name="HDMI Mixer MultiMedia13" value="1" />
     </path>
 
     <path name="compress-offload-playback6 display-port">
@@ -1601,6 +1637,10 @@
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia14" value="1" />
     </path>
 
+    <path name="compress-offload-playback7 hdmi">
+        <ctl name="HDMI Mixer MultiMedia14" value="1" />
+    </path>
+
     <path name="compress-offload-playback7 display-port">
         <ctl name="DISPLAY_PORT Mixer MultiMedia14" value="1" />
     </path>
@@ -1707,6 +1747,10 @@
 
     <path name="compress-offload-playback8 speaker-safe">
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia15" value="1" />
+    </path>
+
+    <path name="compress-offload-playback8 hdmi">
+        <ctl name="HDMI Mixer MultiMedia15" value="1" />
     </path>
 
     <path name="compress-offload-playback8 display-port">
