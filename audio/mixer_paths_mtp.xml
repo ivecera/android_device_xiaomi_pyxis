@@ -259,11 +259,6 @@
     <ctl name="MultiMedia8 Mixer VOC_REC_DL" value="0" />
     <!-- Incall Recording End -->
 
-    <!-- Interphone Switch start  -->
-    <ctl name="Interphone Switch" value="Disable" />
-    <ctl name="TERT_MI2S_RX Port Mixer INT3_MI2S_TX" value="0" />
-    <!-- Interphone Switch end -->
-
     <!-- Incall Music -->
     <ctl name="Incall_Music Audio Mixer MultiMedia2" value="0" />
     <ctl name="Incall_Music_2 Audio Mixer MultiMedia2" value="0" />
@@ -310,23 +305,9 @@
 
     <!-- Codec controls -->
     <!-- WSA controls -->
-    <ctl name="SpkrLeft COMP Switch" value="0" />
-    <ctl name="SpkrRight COMP Switch" value="0" />
-    <ctl name="SpkrLeft BOOST Switch" value="0" />
-    <ctl name="SpkrRight BOOST Switch" value="0" />
-    <ctl name="SpkrLeft VISENSE Switch" value="0" />
-    <ctl name="SpkrRight VISENSE Switch" value="0" />
-    <ctl name="SpkrLeft SWR DAC_Port Switch" value="0" />
-    <ctl name="SpkrRight SWR DAC_Port Switch" value="0" />
-    <ctl name="SpkrLeft WSA PA Gain" value="G_0_DB" />
-    <ctl name="SpkrRight WSA PA Gain" value="G_0_DB" />
-    <ctl name="SpkrLeft WSA PA Mute" value="1" />
-    <ctl name="SpkrRight WSA PA Mute" value="1" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
     <!-- Volume controls -->
-    <ctl name="HPHL Volume" value="9" />
-    <ctl name="HPHR Volume" value="9" />
     <ctl name="EAR PA Gain" value="POS_6_DB" />
     <ctl name="EAR PA Boost" value="DISABLE" />
 
@@ -511,13 +492,6 @@
 
     <!-- Add the new path end -->
 
-    <!-- dspg voice wakeup -->
-    <ctl name="Load acoustic model" value="0" />
-    <ctl name="Acoustic Model" />
-    <ctl name="Backlog size" value="0" />
-    <ctl name="Microphone mode" value="4" />
-    <!-- dspg voice wakeup end -->
-
     <!-- Codec controls end -->
 
     <!-- mixer control to disable lowlatency qos voting -->
@@ -526,7 +500,6 @@
 
     <!-- These are audio route (FE to BE) specific mixer settings -->
     <path name="gsm-mode">
-        <ctl name="GSM mode Enable" value="ON" />
     </path>
 
     <path name="echo-reference">
