@@ -509,39 +509,6 @@
         <ctl name="INT3_MI2S_TX Channels" value="Two" />
     </path>
 
-    <path name="voice-interphone speaker">
-        <ctl name="TERT_MI2S_RX Port Mixer INT3_MI2S_TX" value="1" />
-    </path>
-
-    <path name="interphone-mic">
-        <ctl name="DEC1 MUX" value="DMIC3" />
-        <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="IIR1 INP1 MUX" value="DEC1" />
-        <ctl name="RX1 MIX1 INP1" value="IIR1" />
-        <ctl name="EAR_S" value="Switch" />
-        <ctl name="Loopback MCLK" value="ENABLE" />
-        <ctl name="DEC1 Volume" value="110" />
-        <ctl name="Interphone Switch" value="ENABLE" />
-    </path>
-
-    <path name="interphone-speaker">
-        <ctl name="DEC1 MUX" value="ADC2" />
-        <ctl name="DEC1 Volume" value="70" />
-        <ctl name="ADC2 MUX" value="INP3" />
-    </path>
-
-    <path name="interphone-headset">
-        <ctl name="DEC1 MUX" value="ADC2" />
-        <ctl name="DEC1 Volume" value="76" />
-        <ctl name="ADC2 MUX" value="INP3" />
-        <ctl name="RDAC2 MUX" value="RX2" />
-        <ctl name="IIR1 INP1 MUX" value="DEC1" />
-        <ctl name="RX1 MIX1 INP1" value="IIR1" />
-        <ctl name="RX2 MIX1 INP2" value="IIR1" />
-        <ctl name="HPHL" value="Switch" />
-        <ctl name="HPHR" value="Switch" />
-    </path>
-
     <!-- Add the new path end -->
 
     <!-- dspg voice wakeup -->
@@ -3414,25 +3381,5 @@
     </path>
 
     <path name="call-proxy-in">
-    </path>
-
-    <path name="cirrus-sp-unload-firmware">
-        <!--<ctl name="RCV DSP Booted" value="0" /> -->
-        <ctl name="DSP Booted" value="0" />
-        <ctl name="DSP1 Preload Switch" value="0" />
-    </path>
-
-    <path name="cirrus-sp-diagnostic">
-        <ctl name="PCM Source" value="DSP" />
-        <ctl name="DSP1 Firmware" value="Diag" />
-        <ctl name="Digital PCM Volume" value="817" />
-        <ctl name="AMP PCM Gain" value="16" />
-        <ctl name="DSP1 Preload Switch" value="1" />
-    </path>
-
-    <path name="cirrus-sp-diagnostic-quit">
-        <ctl name="DSP1 Preload Switch" value="1" />
-        <ctl name="PCM Source" value="DSP" />
-        <ctl name="DSP1 Firmware" value="Protection" />
     </path>
 </mixer>
